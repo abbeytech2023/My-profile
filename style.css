@@ -1,0 +1,60 @@
+* {
+  text-align: ;
+}
+
+body {
+  background-image: url(images/backgroundphoto2.jpeg);
+  background-size: cover;
+}
+
+h2 {
+  color: #aa4139;
+  text-align: center;
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  cursor: pointer;
+}
+
+a:visited {
+  color: blue;
+}
+
+img {
+  float: right;
+  margin: 10px;
+}
+
+p {
+  text-decoration: line-through;
+  text-overflow: ellipsis;
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 35px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.webtext:first-child {
+  border: 5px dashed cornflowerblue;
+}
+
+#div1 {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+div p {
+  text-align: left;
+}
+
+.boxmodel {
+  border: 5px solid black;
+  margin: 10px;
+}
